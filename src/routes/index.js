@@ -1,8 +1,8 @@
 import express from 'express'
-import clientRoutes from '../routes/client.routes'
-import generalRoutes from '../routes/general.routes'
-import managementRoutes from '../routes/management.routes'
-import salesRoutes from '../routes/sales.routes'
+import clientRoutes from '../routes/client.routes.js'
+import generalRoutes from '../routes/general.routes.js'
+import managementRoutes from '../routes/management.routes.js'
+import salesRoutes from '../routes/sales.routes.js'
 
 const router = express.Router();
 
